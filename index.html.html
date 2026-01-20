@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="#home" class="logo">ポートフォリオ</a>
+    <ul>
+        <li><a href="#profile">プロファイル</a></li>
+        <li><a href="#skills">スキル</a></li>
+        <li><a href="#projects">プロジェクト</a></li>
+        <li><a href="#contact">連絡先</a></li>
+    </ul>
+</nav>
+
+<!-- PROFILE SECTION -->
+<section id="profile">
+    <h2>プロファイル</h2>
+
+    <div class="profile-img">
+        <img src="image/IMG_0231.png" alt="プロフィール写真" width="200" height="200">
+    </div>
+
+    <p class="profile-text">
+        私は、プログラミングとクリエイティブデザインの両方に強みを持つIT学生です。
+        HTML、CSS、Java、SQL、Pythonといった技術を学び、幅広い開発に対応できる基礎力を身につけています。
+        また、グラフィックデザインや2Dアニメーションのスキルも活かし、
+        視覚的に魅力のあるインターフェースや動きのある表現を制作することができます。
+        技術的な問題解決とクリエイティブな発想を組み合わせることを得意としており、
+        常に新しいツールや技術を取り入れながら、開発力とデザイン力の両面を向上させています。
+    </p>
+
+    <div class="buttons">
+        <a href="resume.pdf" download class="btn download">履歴書をダウンロード</a>
+        
+        <a href="#" ><i class='bx bxl-github'></i></a>
+        <a href="#" ><i class='bx bxl-linkedin' ></i></a>
+        <a href="#" ><i class='bx bxl-twitter' ></i></a>
+        <a href="#" ><i class='bx bxl-youtube' ></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills">
+    <h2>スキル</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML アイコン">
+            <h3>HTML</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS アイコン">
+            <h3>CSS</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java アイコン">
+            <h3>Java</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/906/906334.png" alt="2D Animation アイコン">
+            <h3>2D Animation</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Graphic Design アイコン">
+            <h3>Graphic Design</h3>
+        </div>
+
+        
+
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects">
+    <h2>プロジェクト</h2>
+
+    <div class="card-container">
+
+        <div class="card project-card">
+            <h3>ポートフォリオ ウェブサイト</h3>
+            <p>A clean and animated personal portfolio.</p>
+        </div>
+
+        <div class="card project-card">
+            <h3>2D アニメーション</h3>
+            <p>Interactive buttons, hover effects, and transitions.</p>
+        </div>
+
+        <div class="card project-card">
+            <h3>グラフィックデザインパック</h3>
+            <p>Logos, banners, and social media graphics.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+    <h2>連絡先</h2>
+
+    <p><strong>Email:</strong> dass.bikash786@gmail.com</p>
+    <p><strong>Phone:</strong> 080-1295-1066</p>
+    <p><strong>Address:</strong> 千葉県千葉市若葉区西都賀4-11-36 エンぺリアルエスケイI 102号</p>
+
+    <h3>お問い合わせフォーム</h3>
+
+    <form action="https://formsubmit.co/dass.bikash786@gmail.com" method="POST">
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <div class="form-row">
+            <input type="text" name="name" placeholder="お名前" required>
+            <input type="email" name="email" placeholder="メールアドレス" required>
+        </div>
+
+        <textarea name="message" placeholder="メッセージ" required></textarea>
+
+        <button type="submit" class="btn">送信</button>
+    </form>
+</section>
+
+</body>
+</html>
